@@ -29,20 +29,18 @@
                 <li class="nav-item dropdown">
                   
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Laptop
-                    </a>
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Laptop</a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="/hp.html">Hp</a>
-                        <a class="dropdown-item" href="#">Dell</a>
-                        <a class="dropdown-item" href="#">MSI</a>
-                        <a class="dropdown-item" href="#">Asus</a>
-                        <a class="dropdown-item" href="#">Lenvo</a>
-                        <a class="dropdown-item" href="#">Acer</a>
-                        <a class="dropdown-item" href="#">Apple</a>
-                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="/dell.html">Dell</a>
+                        <a class="dropdown-item" href="/msi.html">MSI</a>
+                        <a class="dropdown-item" href="/asus.html">Asus</a>
+                        <a class="dropdown-item" href="/lenevo.html">Lenevo</a>
+                        <a class="dropdown-item" href="/acer.html">Acer</a>
+                        <a class="dropdown-item" href="/apple.html">Apple</a>
+                        <!-- <div class="dropdown-divider"></div>
                         <a class="dropdown-item" href="#">Support</a>
-                        <a class="dropdown-item" href="#">Other</a>
+                        <a class="dropdown-item" href="#">Other</a> -->
                     </div>
                 </li> 
                 <li class="nav-item">
@@ -104,19 +102,19 @@
           </button>
         </div>
         <div class="modal-body">
-            <form>
+            <form action="connection.php" method="post">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email">
                   <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
                 </div>
                 <div class="form-group">
                   <label for="exampleInputPassword1">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="exampleInputPassword1" name="password">
                 </div>
                 <div class="form-group">
                   <label for="cexampleInputPassword1">Confirm Password</label>
-                  <input type="password" class="form-control" id="cexampleInputPassword1">
+                  <input type="password" class="form-control" id="cexampleInputPassword1" name="cnfpassword">
                 </div>
                 <button type="submit" class="btn btn-primary">Creat Account</button>
               </form>
@@ -483,63 +481,6 @@
     </div>
   </div>
   <!-- Footer -->
-  <div class="p-3 mb-2 bg-light text-white ">
-    <footer class="py-5  " >
-      <div class="row">
-        <div class="col-6 col-md-2 mb-3 text-dark">
-          <h5>Section</h5>
-          <ul class="nav flex-column ">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3 text-dark">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-6 col-md-2 mb-3 text-dark">
-          <h5>Section</h5>
-          <ul class="nav flex-column">
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
-            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
-          </ul>
-        </div>
-  
-        <div class="col-md-5 offset-md-1 mb-3 text-dark">
-          <form>
-            <h5>Subscribe to our newsletter</h5>
-            <p>Monthly digest of what's new and exciting from us.</p>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" type="button">Subscribe</button>
-            </div>
-          </form>
-        </div>
-      </div>
-
-
-      
-      
-
-
-    </footer>
-    
-  </div>
   <footer>
 
     <!-- End of .container -->
